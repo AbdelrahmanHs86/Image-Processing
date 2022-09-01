@@ -10,14 +10,17 @@
     "format": "prettier --write ./src/**/*.ts ",
     "lint": "eslint ./src/**/*.ts",
     "lint:fix": "eslint ./src/**/*.ts --fix",
-    "jasmine" : "jasmine",
+    "jasmine": "jasmine",
     "test": "npm run build && npm run jasmine"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.18.1"
+  },
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/jasmine": "^4.3.0",
     "@types/node": "^18.7.14",
     "@types/supertest": "^2.0.12",
