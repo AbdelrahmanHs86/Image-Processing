@@ -1,5 +1,5 @@
 {
-  "name": "ImageProcessing",
+  "name": "imageProcessing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@types/jasmine": "^4.3.0",
     "@types/node": "^18.7.14",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
@@ -26,6 +27,8 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "jasmine": "^4.3.0",
+    "jasmine-spec-reporter": "^7.0.0",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
