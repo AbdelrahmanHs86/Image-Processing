@@ -5,7 +5,7 @@
         "node": true
     },
     "extends": [
-        "airbnb",
+        "airbnb-base",
         "prettier",
         "plugin:node/recommended"
     ],
