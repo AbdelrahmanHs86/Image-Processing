@@ -79,11 +79,11 @@ Quick start options:
   
 ## Usage
 - at "/api" route you will have an Html form to get in queries
-  <p  align="center"><img width="500"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/iPhone%20copy.jpg" /> </p>
+  <p  align="center"><img width="500"  src="https://github.com/AbdelrahmanHs86/Image-Resizer/blob/master/Readme/home_endpoint.png" /> </p>
 - Or you can type them manually as wanted
-- Url after entering quieries: "/api/resize?filename=img1&width=500&height=500"
+- Url after entering quieries: ``` "/api/resize?filename=img1&width=500&height=500" ```
 - result:
-    <p  align="center"><img width="500"  src="https://github.com/AbdelrahmanHs86/Readme-Expreriment/blob/main/iPhone%20copy.jpg" /> </p>
+    <p  align="center"><img width="500"  src="https://github.com/AbdelrahmanHs86/Image-Resizer/blob/master/Readme/result_endpoint.png" /> </p>
 
 ## Scripts Included
 ```Javascript
