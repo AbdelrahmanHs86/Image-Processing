@@ -3,8 +3,6 @@ import resize from './api/resize';
 
 const routes = express.Router();
 
-routes.use('/resize', resize, (req, res) => {
-	// res.send('Provide image details');
-});
+routes.use('/resize', resize, () => {});
 
 export default routes;
