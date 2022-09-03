@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<h4 align="center">An image resizer API using node and express</h4>
+<h4 align="center">An image processing API that resizes and saves images to user specifications when visiting a URL</h4>
 
 <!-- <div align='center'> 
 
