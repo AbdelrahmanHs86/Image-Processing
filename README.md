@@ -78,7 +78,7 @@ Quick start options:
 - ``` npm run start ```
   
 ## Usage
-- at "/api" route you will have an Html form to get in queries
+- At "/api" route you will have an Html form to get in queries
   <p  align="center"><img width="500"  src="https://github.com/AbdelrahmanHs86/Image-Resizer/blob/master/Readme/home_endpoint.png" /> </p>
 - Or you can type them manually as wanted
 - Url after entering quieries: ``` "/api/resize?filename=img1&width=500&height=500" ```
@@ -90,7 +90,7 @@ Quick start options:
 "build": compiling typescript to javascript
 "start": compiling typescript to javascript then start compiled code
 "dev": run and watch the code for any changes using nodemon
-"prettier": applying prettier rules to code
+"format": applying prettier rules to code
 "lint": lint the code using eslint 
 "lint:fix": lint the code and fix errors using eslint 
 "jasmine": test the compiled code
