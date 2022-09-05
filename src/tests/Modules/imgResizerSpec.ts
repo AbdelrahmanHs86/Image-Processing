@@ -1,0 +1,19 @@
+/* eslint-disable no-undef */
+
+import imgResizer from '../../modules/imgResizer';
+const existedImg = '../../../Images/Resized/img1_40_40.jpg';
+// const notexistedImg = '../../../Images/Resized/img1_250_600.jpg';
+
+describe('Test image resizing function', () => {
+	it('should not throw an error when correct entered queries', () => {
+		expect(() => {
+			imgResizer(existedImg, 50, 50);
+		}).not.toThrow();
+	});
+
+	// it('should throw an error when wrong entered queries', () => {
+	// 	expect(() => {
+	// 		imgResizer(notexistedImg, 50, 50);
+	// 	}).toThrow();
+	// });
+});
