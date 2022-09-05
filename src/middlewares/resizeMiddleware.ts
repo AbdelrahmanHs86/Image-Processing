@@ -7,7 +7,9 @@ const imgResize = async (req: Request, res: Response, next: NextFunction): Promi
 		const Filename = req.query.filename as string;
 		const imgWidth = parseInt(req.query.width as string, 10);
 		const imgHeight = parseInt(req.query.height as string, 10);
+		// use resize on given queries
 		const imgOutput = resize(Filename, imgWidth, imgHeight);
+		//check file existance for caching
 		const exist = await isExist(imgOutput);
 		if (!exist) {
 			setTimeout(() => {
