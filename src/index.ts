@@ -1,10 +1,10 @@
-import express from 'express';
+import express, { Request, Response } from 'express';
 import routes from './routes/index';
 
 const app = express();
 const port = 3024;
 
-app.use('/api', routes, (req, res) => {
+app.use('/api', routes, (req: Request, res: Response) => {
 	res.send(`
 	<form action="/api/resize">
 	<label for="fname">File name:</label><br>
