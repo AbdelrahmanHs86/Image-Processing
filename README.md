@@ -49,8 +49,10 @@
   - filename
   - width
   - height
+- Check all user entered quieries before before sending image for processing.
 - Save Resized images locally
 - Cache already resized images with the same query
+  
 
 <!-- ## Links:
 
@@ -103,12 +105,11 @@ Within the download you'll find the following directories and files:
 
 ```
 image-resizer/src/
-├── Images/
-|   ├── Original
-|   ├── Resized
 ├── middlewares/
-|   └── imgResizer.ts
+|   ├── checker.ts
+|   └── resizeMiddleware.ts
 ├── modules/
+|   ├── imgResizer.ts
 |   └── isExist.ts
 ├── routes/
 |   ├── api
@@ -117,8 +118,9 @@ image-resizer/src/
 ├── tests/
 |   ├── helper
 |   ├── middlewares
-|   |   └── imgResizerSpec.ts
+|   |   └── resizeMiddlewareSpec.ts
 |   ├── modules
+|   |   ├── imgResizerSpec.ts
 |   |   └── isExistSpec.ts
 |   └── indexSpec.ts
 └── index.ts
